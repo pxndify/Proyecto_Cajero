@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+    <link rel="stylesheet" href="CajeroAuto.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<header> <div class="titulo"><h1> CAJERO AUTOMÁTICO <h1> </div></header>
+<body>
+
+    <h1>CUENTAS</h1>
+    <div class="Cuentas"> <h2> Cuenta: P1 </h2> <h3> Contraseña: 1234 </h3></div>
+    <div class="Cuentas"> <h2> Cuenta: P2 </h2> <h3> Contraseña: 2345 </h3></div>
+    <div class="Cuentas"> <h2> Cuenta: P3 </h2> <h3> Contraseña: 3456 </h3></div>
+    
+    <br>
+    
+    <h1>INICIO DE SESIÓN</h1>
+
+
+<div class="contenedor_one">
+<form action="" id="form">
+
+    <h3>USUARIO</h3>
+    <input type="text" id="user" placeholder="Ingresa Usuario" required>
+
+    <br>
+    <br>
+
+    <h3>CONTRASEÑA</h3>
+    <input type="password" id="password" placeholder="Ingresa Contraseña">
+
+    <br>
+    <br>
+    <br>
+
+    <button onclick="Verificador()" class="button"> INICIAR SESIÓN </button>
+</div>
+ 
+</form>
+ 
+    <script src="Cajero_Script.js"></script>
+</body>
+
+</html>

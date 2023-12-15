@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("https://img.freepik.com/free-vector/abstract-white-bokeh-glowing-lights-background_1017-24049.jpg");
+    background-size: cover; 
+}
+
+
+.titulo{
+    background-color: azure;
+    text-align: center;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+
+h1{
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor1{
+
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor2{
+    align-items: center;
+    text-align: center;
+
+}
+
+button{
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: rgb(205, 242, 252);
+    color: rgb(7, 7, 7);
+    font-size: medium;
+    padding: 1px;
+}

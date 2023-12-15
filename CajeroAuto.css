@@ -1,0 +1,77 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("https://img.freepik.com/free-vector/abstract-white-bokeh-glowing-lights-background_1017-24049.jpg");
+    background-size: cover; 
+}
+
+
+.titulo{
+    background-color: azure;
+    text-align: center;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+.contenedor_info{
+    width: 500px;
+    height: 100px;
+    border: solid black 1px;
+    background-color: rgb(189, 241, 224);
+    
+}
+
+body{
+    background-color: antiquewhite;
+    
+}
+
+
+.titulo{
+    background-color: azure;
+    text-align: center;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    border: solid black 2px;
+}
+
+
+
+h1{
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor_one{
+
+    align-items: center;
+    text-align: center;
+    border: solid black 2px;
+    margin: 15px;
+    padding: 25px;
+    background-color: #BEDDFB;
+    
+}
+
+.Cuentas{
+    align-items: center;
+    text-align: center;
+    border: solid black 2px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #F3FFE7;
+    
+}
+
+button{
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(7, 7, 7);
+    font-size: medium;
+    padding: 3px;
+    
+}
+
